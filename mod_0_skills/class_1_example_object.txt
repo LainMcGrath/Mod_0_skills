@@ -1,0 +1,11 @@
+pint
+
+totalCapacity: 16
+currentCapacity: 5
+cupType: "pint glass"
+isClean: false
+
+calculateFillCup: (5 / 16) = 31%
+changeCupType: cupType = "tulip glass"
+washCup: isClean == true
+restockCup: puts cup away
