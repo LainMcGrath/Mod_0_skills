@@ -1,0 +1,11 @@
+class Cup
+
+totalCapacity (integer)
+currentCapacity (integer)
+cupType (string)
+isClean (boolean)
+
+calculateFillCup (divides currentCapacity by totalCapacity)
+changeCupType (changes cupType from pint_glass to tulip_glass)
+washCup (if isClean is false, wash cup in dishwasher)
+restockCup (if isClean is true, put cups away)
