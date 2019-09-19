@@ -1,12 +1,12 @@
 class DiningRoom
 
-seatMaterial(string)
+seatMaterial(array)
 numberOfTables(integer)
 numberOfEmptyTables(integer)
-tableType(string)
+tableType(array)
 
 
-changeSeatMaterial(changes material type - e.g. wood to leather)
+changeSeatMaterial(changes seatMaterial type - e.g. pleather to leather)
 increaseNumberOfTables(adds tables to the restaurant)
 calculateOpenDiningCapacity(divides numberOfEmptyTables by numberOfTables)
 changeTableType (changes table type from 4 top to booth)
