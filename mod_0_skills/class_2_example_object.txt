@@ -1,0 +1,13 @@
+class DiningRoom
+
+Attributes
+seatMaterial = ["leather", "pleather", "vinyl", "cotton"]
+numberOfTables = 12
+numberOfEmptyTables = 1
+tableType = ["2 top", "4 top", "booth"]
+
+Methods
+changeSeatMaterial:  "leather"
+increaseNumberOfTables: numberOfTables + 2 = 14
+calculateOpenDiningCapacity: 1 / 14 = 7%
+changeTableType: tableType = "booth"
